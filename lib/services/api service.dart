@@ -11,5 +11,6 @@ class ApiService {
       var jsonString = response.body;
       return productModelFromJson(jsonString);
     }
+    return null;
   }
 }
